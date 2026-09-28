@@ -4,7 +4,7 @@
 
 **LOCKED TARGET — 2026-09-23**
 
-The CP-007 visual direction is approved. CP-007 remains a future implementation checkpoint; locking the target does not mean the production art pass is complete.
+The CP-007 visual direction is approved. CP-007 shipped initial visual systems. CP-010 Final Visual Finish is active; locking the direction does not mean the final authored art pass is complete.
 
 ## Identity
 

@@ -10,11 +10,11 @@
 
 ## Current development state
 
-**CP-010 — Release — ACTIVE**
+**CP-010 — Final Visual Finish — ACTIVE**
 
 The playable foundation already includes mining, auto-drill, storage upgrades, autonomous drone progression, relic collection and gradually revealed systems such as bombs, forging, drone builds and deep technology.
 
-The CP-009 beta checkpoint is released. The current work is the production Android release gate: signing, store material, privacy compliance and device acceptance.
+The CP-009 beta checkpoint is released. CP-010 is completing the authored pixel art target and S25 visual acceptance. CP-011 Production Release is planned for signing, store material, privacy compliance and device acceptance.
 
 ## Final visual direction
 
@@ -49,4 +49,4 @@ Nyrvault is **not an open-source project**. This repository intentionally contai
 
 ## Status
 
-CP-009 Beta is released as `v0.0.10-cp009`. Development is active on CP-010 Release. Public material is updated from the private canonical development repository through an allowlist-only publishing process.
+CP-009 Beta is released as `v0.0.10-cp009`. Development is active on CP-010 Final Visual Finish; CP-011 Production Release follows. Public material is updated from the private canonical development repository through an allowlist-only publishing process.

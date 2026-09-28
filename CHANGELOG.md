@@ -2,10 +2,15 @@
 
 ## 2026-09-28
 
+### Roadmap correction
+- CP-007 remains the released initial visual systems pass; final target parity is active in CP-010 Final Visual Finish.
+- CP-011 Production Release follows CP-010. The disposable AAB/S25 bundle probe is release feasibility evidence, not production signing or visual acceptance.
+
+
 ### CP-009 released — Beta
 - Released `v0.0.10-cp009` from green merged-main CI with verified Android debug and S25 preview assets.
 - Added local privacy-first diagnostics, manual report export, bounded breadcrumbs and S25 physical preview QA.
-- CP-010 production release gate is now active; CI debug signing is separate from store signing.
+- Historical note: CP-010 was originally named the production release gate; the roadmap correction above moves that gate to CP-011. CI debug signing remains separate from store signing.
 
 ### CP-008 released — Retention & Economy
 - Released `v0.0.9-cp008` after green branch/main CI and verified checkpoint assets.

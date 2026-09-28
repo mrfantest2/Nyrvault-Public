@@ -9,10 +9,11 @@
 | CP-004 Layered Systems | PASS | Bombs, forge, drone builds and deep technology revealed progressively |
 | CP-005 Worlds & Guardian | PASS | Two underground worlds, first Core Guardian and permanent world progression |
 | CP-006 Core Collapse | RELEASED | Confirmation-gated prestige/reset loop, shards and permanent progression |
-| CP-007 Visual Convergence | RELEASED | Production pixel art, animation, VFX, audio/haptics, UX and accessibility |
+| CP-007 Visual Convergence | RELEASED | Initial atlas, HUD, VFX, audio/haptics, UX and accessibility systems; final art target remains open |
 | CP-008 Retention & Economy | RELEASED | Collection goals, events and economy balancing |
 | CP-009 Beta | RELEASED | Local privacy-first diagnostics, Android preview QA and beta performance matrix |
-| CP-010 Release | ACTIVE | Production Android signing, store compliance and release |
+| CP-010 Final Visual Finish | ACTIVE | Authored pixel art, cave depth, mech/drone, machinery, HUD and S25 target acceptance |
+| CP-011 Production Release | PLANNED | Production Android signing, store compliance and release |
 
 ## Core design sequence
 
@@ -24,7 +25,7 @@ Major progression should change what the player does, reveal something new, or c
 
 ## Visual target
 
-The CP-007 direction is already locked even though implementation is scheduled later. The target preserves the live cellular excavation gameplay while replacing prototype primitives with premium authored pixel art.
+The CP-007 direction is locked and its initial visual systems shipped. CP-010 completes the final authored pixel art target while preserving the live cellular excavation gameplay.
 
 See [docs/VISUAL_TARGET.md](docs/VISUAL_TARGET.md) and [assets/nyrvault-target.svg](assets/nyrvault-target.svg).
 
