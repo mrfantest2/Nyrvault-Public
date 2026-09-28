@@ -7,12 +7,12 @@
 | CP-002 Idle Loop | PASS | Drill/storage upgrades, autonomous drone, offline progress and persistence |
 | CP-003 Loot & Collection | PASS | Rarity, relic discovery and collection systems |
 | CP-004 Layered Systems | PASS | Bombs, forge, drone builds and deep technology revealed progressively |
-| CP-005 Worlds & Guardian | ACTIVE | Multiple underground biomes, first Core Guardian and permanent world progression |
-| CP-006 Core Collapse | PLANNED | Prestige/reset loop and permanent progression |
-| CP-007 Visual Convergence | PLANNED · TARGET LOCKED | Production pixel art, animation, VFX, audio/haptics, UX and accessibility |
-| CP-008 Retention & Economy | PLANNED | Collection goals, events and economy balancing |
-| CP-009 Beta | PLANNED | Closed beta, performance matrix, crash policy and balancing |
-| CP-010 Release | PLANNED | Production Android release |
+| CP-005 Worlds & Guardian | PASS | Two underground worlds, first Core Guardian and permanent world progression |
+| CP-006 Core Collapse | RELEASED | Confirmation-gated prestige/reset loop, shards and permanent progression |
+| CP-007 Visual Convergence | RELEASED | Production pixel art, animation, VFX, audio/haptics, UX and accessibility |
+| CP-008 Retention & Economy | RELEASED | Collection goals, events and economy balancing |
+| CP-009 Beta | RELEASED | Local privacy-first diagnostics, Android preview QA and beta performance matrix |
+| CP-010 Release | ACTIVE | Production Android signing, store compliance and release |
 
 ## Core design sequence
 

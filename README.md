@@ -10,11 +10,11 @@
 
 ## Current development state
 
-**CP-005 — Worlds & Guardian — ACTIVE**
+**CP-010 — Release — ACTIVE**
 
 The playable foundation already includes mining, auto-drill, storage upgrades, autonomous drone progression, relic collection and gradually revealed systems such as bombs, forging, drone builds and deep technology.
 
-The current checkpoint expands Nyrvault beyond the first mine with multiple underground worlds and the first Core Guardian.
+The CP-009 beta checkpoint is released. The current work is the production Android release gate: signing, store material, privacy compliance and device acceptance.
 
 ## Final visual direction
 
@@ -49,4 +49,4 @@ Nyrvault is **not an open-source project**. This repository intentionally contai
 
 ## Status
 
-Development is active. Public material will be updated from the private canonical development repository through an allowlist-only publishing process.
+CP-009 Beta is released as `v0.0.10-cp009`. Development is active on CP-010 Release. Public material is updated from the private canonical development repository through an allowlist-only publishing process.
