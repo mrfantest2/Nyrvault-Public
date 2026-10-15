@@ -1,23 +1,22 @@
-name: Public Android Build Preflight
+name: Public Android Build
 on:
   workflow_dispatch:
   push:
     paths:
       - ".github/workflows/public-android-preflight.yml"
+      - "game/**"
 permissions:
   contents: read
 jobs:
-  inspect:
+  build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - name: Verify public build inputs
+      - name: Require sanitized build inputs
         shell: bash
         run: |
           set -euo pipefail
-          if [ ! -f game/project.godot ]; then
-            echo "::notice::Sanitized Godot project not yet available; APK build intentionally gated."
-            exit 0
-          fi
-          test -f game/export_presets.cfg
-          echo "Godot project and Android export preset found"
+          test -f game/project.godot || { echo "::error::Sanitized Godot project missing. No APK can be built."; exit 1; }
+          test -f game/export_presets.cfg || { echo "::error::Android export preset missing."; exit 1; }
+          echo "Build inputs present; Android toolchain setup remains pending."
