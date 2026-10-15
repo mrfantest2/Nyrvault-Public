@@ -1,0 +1,23 @@
+name: Public Android Build Preflight
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/public-android-preflight.yml"
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify public build inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f game/project.godot ]; then
+            echo "::notice::Sanitized Godot project not yet available; APK build intentionally gated."
+            exit 0
+          fi
+          test -f game/export_presets.cfg
+          echo "Godot project and Android export preset found"
